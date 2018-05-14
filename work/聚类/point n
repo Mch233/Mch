@@ -1,0 +1,55 @@
+point n
+
+遍历矩阵 dict_den = {i:den[i],}
+
+	for i－1:n
+	for 1:n-1
+	den [i]= sum(len<dc)
+
+dict_den = {i:den,}
+
+sort(den)  -->  dict_den' = {i:den,}
+
+
+遍历　
+if dict_den' [1]
+	& = sort() 矩阵　(n-1)i+1  :  (n-1)(i+1)  maxlen
+else
+	len[j-1]
+	for 1:j-1     dict_den' [j]  //遍历密度大的
+	 	a = j
+	 	if dict_den' [a] .i> dict_den' [j].i    	
+	 			len [j]= (n-1)a+ dict_den' [j].i 
+	 		else
+	 			 len [j]= (n-1)i+ dict_den' [j].i  - 1
+
+	 	sort(len[]) --> & [i]= minlen
+
+写入＆
+r = den&
+
+k　i.lable =k
+
+dict_den'		i den & (den降序排列)
+
+i den & label
+
+if dict_den' [1]
+	
+else
+	len[j-1]
+	for 1:j-1     dict_den' [j]  //遍历密度大的
+	 	a = j
+	 	if dict_den' [a] .i> dict_den' [j].i    	
+	 			len [j]= (n-1)a+ dict_den' [j].i 
+	 		else
+	 			 len [j]= (n-1)i+ dict_den' [j].i  - 1
+
+	 	sort(len[]) --> minlen.i.label
+
+
+
+
+
+
+

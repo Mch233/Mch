@@ -1,0 +1,15 @@
+from numpy import *
+print('hello world！')
+'''
+f =loadtxt('test')
+
+print(f[1])
+'''
+f = open('test','r')  
+lines = f.readlines()#全部数据读到一个列表lines中  ,每一行变成一个元素   
+for line in lines:  #依次把lines中的每个元素代入变量line迭代出来
+    line = line.strip('\n').split(' ')
+    i = 0
+    j = i+1
+    lines[j] = line 
+print(lines)

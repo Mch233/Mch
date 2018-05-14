@@ -1,0 +1,71 @@
+dc
+
+point 
+	属性
+		Ｎo = i
+		x,y,z
+		dict_len	={ j:len,}	#与其他点之间距离n-1个
+		den 		#密度
+		&
+		r = &den
+		label
+
+		bool denmax
+		int maxlen 
+	方法
+		len(point1.xyz,point2.xyz) 		return len
+		sort(point.dict_len)			return dict
+
+		den(point.dict_len)
+
+		sort(point.den)
+		if denmax
+			& =   sort(point.dict_len)
+				maxlen
+		else
+			sort(point.den)>i
+			& = sort(point.dict_len)
+				minlen
+
+		sort(point.r)		return 
+		>k label = 1
+
+		sort(point.den)>i
+			sort(point.dict_len)
+				minlen.label
+
+
+
+
+
+start
+０．
+dc
+	//两两距离计算
+	for (i=1;i<=n;i++)
+		for (j=1;j<=n;j++){
+			if(i !=j)
+			len[i][j]=len(no[i],no[j])
+		}
+	
+	[] = sort (len)
+
+1.
+den
+for( ){
+	date.den=fden()
+}
+
+fden()
+fden(date)
+{
+	date.den = 0;
+	for( i = 0;i<n-1;i++)｛
+	if(date.len[i] - dc < 0)
+	den++;
+	｝
+	return date.den;
+}
+
+
+
